@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css>
+    <title>Document</title>
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <p>Nueva tarea</p>
+<input id="taskInput"> <!-- 1 -->
+<button id="addBtn">Agregar</button> <!-- 2 -->
+<div>
+    <div>
+        <p>Total: <span id="total"></span></p>
+        <p>Realizadas: <span id="done"></span></p>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Tarea</th>
+                <th>Realizada</th>
+                <th>Eliminar</th>
+            </tr>
+            <tbody id="tasks"></tbody>
+        </table>
+       
+    </div>
+</div>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
